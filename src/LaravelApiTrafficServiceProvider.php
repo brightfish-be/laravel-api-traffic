@@ -2,9 +2,9 @@
 
 namespace Brightfish\LaravelApiTraffic;
 
+use Brightfish\LaravelApiTraffic\Commands\LaravelApiTrafficCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Brightfish\LaravelApiTraffic\Commands\LaravelApiTrafficCommand;
 
 class LaravelApiTrafficServiceProvider extends PackageServiceProvider
 {
