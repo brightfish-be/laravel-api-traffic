@@ -2,9 +2,9 @@
 
 namespace Brightfish\LaravelApiTraffic\Tests;
 
+use Brightfish\LaravelApiTraffic\LaravelApiTrafficServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Brightfish\LaravelApiTraffic\LaravelApiTrafficServiceProvider;
 
 class TestCase extends Orchestra
 {
